@@ -1,0 +1,47 @@
+.task-card{
+    background-color: #FFFFCC;
+    border-radius: 0px;
+    box-shadow: 3px 3px 10px rgb(30, 30, 30);
+    width: 310px;
+    height: 310px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.task-card-important{
+    background-color: #EC7063;
+    border-radius: 0px;
+    box-shadow: 3px 3px 10px rgb(30, 30, 30);
+    width: 310px;
+    height: 310px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.card-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close-btn{
+    width: 20px;
+    margin-right: -10px;
+}
+
+.body{
+    margin-top: -19px;
+}
+
+@media screen and (max-width: 1000px) {
+    .task-list{
+        align-content: center;
+    }
+
+    .task-card{
+        margin-right: 0;
+    }
+    
+    .task-card-important{
+        margin-right: 0;
+    }
+}
